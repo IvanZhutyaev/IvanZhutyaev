@@ -1,4 +1,4 @@
-![👋 Hi, my name is Ivan!](https://i.pinimg.com/originals/6b/cd/f2/6bcdf2799bc8300f6684fe9b432c2c5b.gif)
+![image](https://github.com/user-attachments/assets/61c0ce01-b4aa-4a84-9832-d6643d7a8454)![👋 Hi, my name is Ivan!](https://i.pinimg.com/originals/6b/cd/f2/6bcdf2799bc8300f6684fe9b432c2c5b.gif)
 
 # 👋 Hi, my name is Ivan!
 💫I am a young developer from Russia<br>📚I have the potential to create complex projects<br>👨🏻‍💻I am currently working in the Code Forge team.<br>⚡Fun fact: I am Spiderman... but don't tell anyone<br>📂Portfolio: <a href="https://github.com/IvanZhutyaev?tab=repositories" target="_blank">https://github.com/IvanZhutyaev?tab=repositories</a><br>📝Blog: <a href="https://t.me/ScriptSquadMain" target="_blank">https://t.me/ScriptSquadMain</a><br>😎I will be glad to work with you!
@@ -30,5 +30,9 @@
 
 ---
 
-![snake gif](https://github.com/IvanZhutyaev/IvanZhutyaev/blob/output/github-contribution-grid-snake.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" />
+</picture>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
