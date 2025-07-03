@@ -28,13 +28,13 @@
 
 ---
 
-<!-- Настоящий Pacman с коммитами -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-dark.svg">
-    <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman.svg" width="100%">
-  </picture>
-</div>
+## My Contribution Graph
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+</picture>
 
 <!-- Змейка -->
 <div align="center">
