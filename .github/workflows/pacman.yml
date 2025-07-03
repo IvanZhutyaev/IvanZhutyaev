@@ -2,7 +2,7 @@ name: Generate Pacman Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "30 */12 * * *"  # Запуск в другое время, чем змейка
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -14,54 +14,36 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout output branch
         uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output-files
 
       - name: Generate Pacman SVGs
         run: |
-          # Создаем директорию для SVG
-          mkdir -p generated
+          mkdir -p output-files
           
-          # Основной SVG (светлая тема)
-          cat > generated/pacman-contribution-graph.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-            <style>
-              .pacman {
-                animation: eat 0.7s infinite;
-                transform-origin: center;
-                fill: #FFD700;
-              }
-              @keyframes eat {
-                0% { transform: rotate(0deg); }
-                50% { transform: rotate(-45deg); }
-                100% { transform: rotate(0deg); }
-              }
-            </style>
+          # Основной SVG
+          cat > output-files/pacman-contribution-graph.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
+            <style>.pacman{animation:eat .7s infinite;transform-origin:center;fill:#FFD700}@keyframes eat{0%{transform:rotate(0)}50%{transform:rotate(-45deg)}100%{transform:rotate(0)}}</style>
             <circle cx="50" cy="50" r="40" class="pacman"/>
           </svg>
           EOF
           
-          # Темная тема
-          sed 's/#FFD700/#FF8C00/' generated/pacman-contribution-graph.svg > generated/pacman-contribution-graph-dark.svg
-          
-          # Проверяем создание файлов
-          ls -la generated/
+          # Темная версия
+          sed 's/#FFD700/#FF8C00/' output-files/pacman-contribution-graph.svg > output-files/pacman-contribution-graph-dark.svg
 
-      - name: Push to output branch
+      - name: Commit and push Pacman files
         run: |
+          cd output-files
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Создаем/переключаемся на ветку output
-          git checkout --orphan output 2>/dev/null || git checkout output
+          # Добавляем только файлы пакмана, не трогая змейку
+          git add pacman-contribution-graph*
           
-          # Очищаем ветку (если она уже существовала)
-          git rm -rf . 2>/dev/null || true
-          
-          # Копируем SVG из директории generated
-          cp -v generated/*.svg ./
-          
-          # Фиксируем изменения
-          git add .
-          git commit -m "Update Pacman SVGs [$(date +%Y-%m-%d)]"
-          git push origin output --force
+          # Коммитим только если есть изменения
+          git diff-index --quiet HEAD || git commit -m "Update Pacman [$(date +%Y-%m-%d)]"
+          git push origin output
