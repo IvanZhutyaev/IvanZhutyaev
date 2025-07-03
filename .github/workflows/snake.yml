@@ -10,11 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-      id-token: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout output branch
         uses: actions/checkout@v4
         with:
           ref: output
@@ -28,11 +26,11 @@ jobs:
             output/github-snake.svg
             output/github-snake-dark.svg?palette=github-dark
 
-      - name: Preserve Pacman files
+      - name: Commit and push
         run: |
           cd output
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
           git add .
-          git commit -m "Update Snake + Pacman"
+          git commit -m "Update snake animation [skip ci]"
           git push origin output
