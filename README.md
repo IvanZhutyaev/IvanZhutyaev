@@ -28,15 +28,16 @@
 
 ---
 
-<!-- Pacman -->
+
+<!-- Pacman with Contributions -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph-dark.svg">
-  <img alt="Pacman" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-dark.svg">
+  <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman.svg" width="100%">
 </picture>
 
 <!-- Snake -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake-dark.svg">
-  <img alt="Snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" width="100%">
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" width="100%">
 </picture>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
