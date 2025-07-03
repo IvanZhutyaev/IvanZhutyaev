@@ -21,17 +21,29 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+        id: generate_svg
 
-      - name: Checkout output branch
+      - name: Verify SVG generation
+        run: |
+          echo "Generated files in $PWD:"
+          ls -la
+          echo "Trying to find SVG files:"
+          ls -la pacman-contribution-graph*.svg || echo "SVG files not found!"
+
+      - name: Setup output branch
         run: |
           git fetch origin output || git checkout --orphan output
           git checkout output
 
-      - name: Update SVG files
+      - name: Copy and push SVGs
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          cp ../pacman-contribution-graph*.svg ./
+          
+          # Явно указываем полные пути
+          cp pacman-contribution-graph.svg ./ || echo "Light SVG not found"
+          cp pacman-contribution-graph-dark.svg ./ || echo "Dark SVG not found"
+          
           git add pacman-contribution-graph*.svg
-          git commit -m "Update Pacman SVGs [skip ci]"
+          git commit -m "Update Pacman SVGs [skip ci]" || echo "No changes to commit"
           git push origin output
