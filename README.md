@@ -28,17 +28,15 @@
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" />
-</picture>
-
----
-
+<!-- Pacman -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg">
-  <img alt="Pacman animation" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg" width="100%">
+  <img alt="Pacman" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg" width="100%">
+</picture>
+
+<!-- Snake -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake-dark.svg">
+  <img alt="Snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" width="100%">
 </picture>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
