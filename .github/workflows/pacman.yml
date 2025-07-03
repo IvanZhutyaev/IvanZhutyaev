@@ -18,32 +18,27 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Pacman SVGs
-        uses: abozanona/pacman-contribution-graph@main
+        uses: marlonsmith/pacman-contributions@v1
         with:
           github_user_name: ${{ github.repository_owner }}
-        id: generate_svg
-
-      - name: Verify SVG generation
-        run: |
-          echo "Generated files in $PWD:"
-          ls -la
-          echo "Trying to find SVG files:"
-          ls -la pacman-contribution-graph*.svg || echo "SVG files not found!"
+          output_file: "pacman.svg"
 
       - name: Setup output branch
         run: |
           git fetch origin output || git checkout --orphan output
           git checkout output
 
-      - name: Copy and push SVGs
+      - name: Update and push SVG
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Явно указываем полные пути
-          cp pacman-contribution-graph.svg ./ || echo "Light SVG not found"
-          cp pacman-contribution-graph-dark.svg ./ || echo "Dark SVG not found"
+          # Переименовываем сгенерированный файл
+          mv ../pacman.svg ./pacman-contribution-graph.svg
           
-          git add pacman-contribution-graph*.svg
-          git commit -m "Update Pacman SVGs [skip ci]" || echo "No changes to commit"
+          # Создаем темную версию (просто копируем)
+          cp ./pacman-contribution-graph.svg ./pacman-contribution-graph-dark.svg
+          
+          git add .
+          git commit -m "Update Pacman SVGs [skip ci]"
           git push origin output
