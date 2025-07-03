@@ -17,10 +17,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Pacman SVG
+      - name: Generate Pacman SVGs
         run: |
-          # Создаем SVG с анимацией
-          cat << 'EOF' > pacman.svg
+          # Создаем директорию для SVG
+          mkdir -p generated
+          
+          # Основной SVG (светлая тема)
+          cat > generated/pacman-contribution-graph.svg << 'EOF'
           <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
             <style>
               .pacman {
@@ -38,29 +41,27 @@ jobs:
           </svg>
           EOF
           
-          # Создаем темную версию
-          sed 's/#FFD700/#FF8C00/' pacman.svg > pacman-dark.svg
+          # Темная тема
+          sed 's/#FFD700/#FF8C00/' generated/pacman-contribution-graph.svg > generated/pacman-contribution-graph-dark.svg
           
-          # Переименовываем по стандарту
-          mv pacman.svg pacman-contribution-graph.svg
-          mv pacman-dark.svg pacman-contribution-graph-dark.svg
-          
-          # Проверяем что файлы созданы
-          ls -la *.svg
+          # Проверяем создание файлов
+          ls -la generated/
 
-      - name: Setup output branch
+      - name: Push to output branch
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Создаем или переключаемся на ветку output
-          git checkout --orphan output || git checkout output
-          git reset --hard
+          # Создаем/переключаемся на ветку output
+          git checkout --orphan output 2>/dev/null || git checkout output
           
-          # Копируем файлы
-          cp ../*.svg ./
+          # Очищаем ветку (если она уже существовала)
+          git rm -rf . 2>/dev/null || true
+          
+          # Копируем SVG из директории generated
+          cp -v generated/*.svg ./
           
           # Фиксируем изменения
           git add .
-          git commit -m "Update Pacman SVGs"
+          git commit -m "Update Pacman SVGs [$(date +%Y-%m-%d)]"
           git push origin output --force
