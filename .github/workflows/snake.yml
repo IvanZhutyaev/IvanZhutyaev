@@ -41,3 +41,10 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+      - name: Keep existing Pacman files
+        run: |
+          # Восстанавливаем файлы пакмана после генерации змейки
+          git checkout output -- pacman-contribution-graph* 2>/dev/null || true
+          git add .
+          git commit --amend --no-edit
+          git push origin output --force
