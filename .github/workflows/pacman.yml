@@ -14,27 +14,53 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate Pacman SVG
         run: |
-          # Создаем простую анимацию Pacman
-          echo '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+          # Создаем SVG с анимацией
+          cat << 'EOF' > pacman.svg
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
             <style>
-              .pacman { animation: eat 0.7s linear infinite; transform-origin: 50% 50%; }
-              @keyframes eat { 0% { transform: rotate(0deg); } 50% { transform: rotate(-45deg); } 100% { transform: rotate(0deg); } }
+              .pacman {
+                animation: eat 0.7s infinite;
+                transform-origin: center;
+                fill: #FFD700;
+              }
+              @keyframes eat {
+                0% { transform: rotate(0deg); }
+                50% { transform: rotate(-45deg); }
+                100% { transform: rotate(0deg); }
+              }
             </style>
-            <circle cx="50" cy="50" r="40" fill="#FFD700" class="pacman"/>
-          </svg>' > pacman-contribution-graph.svg
+            <circle cx="50" cy="50" r="40" class="pacman"/>
+          </svg>
+          EOF
+          
+          # Создаем темную версию
+          sed 's/#FFD700/#FF8C00/' pacman.svg > pacman-dark.svg
+          
+          # Переименовываем по стандарту
+          mv pacman.svg pacman-contribution-graph.svg
+          mv pacman-dark.svg pacman-contribution-graph-dark.svg
+          
+          # Проверяем что файлы созданы
+          ls -la *.svg
 
-          # Создаем темную версию (оранжевый Pacman)
-          sed 's/#FFD700/#FFA500/g' pacman-contribution-graph.svg > pacman-contribution-graph-dark.svg
-
-      - name: Push to output branch
-        uses: actions-js/push@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
-          directory: .
-          force: true
+      - name: Setup output branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+          # Создаем или переключаемся на ветку output
+          git checkout --orphan output || git checkout output
+          git reset --hard
+          
+          # Копируем файлы
+          cp ../*.svg ./
+          
+          # Фиксируем изменения
+          git add .
+          git commit -m "Update Pacman SVGs"
+          git push origin output --force
