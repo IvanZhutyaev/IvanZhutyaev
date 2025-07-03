@@ -1,23 +1,25 @@
-name: Generate Pacman Animation
+name: Generate pacman animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Каждые 12 часов
+    - cron: "* */12 * * *"
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   generate:
-    runs-on: ubuntu-latest
     permissions:
-      contents: write  # Права на запись
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Pacman SVG
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,5 +28,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: .  # Корень, а не /dist
-          keep_files: true
+          build_dir: .
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
