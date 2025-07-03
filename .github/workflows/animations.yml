@@ -1,0 +1,47 @@
+name: Update Animations
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Каждые 6 часов
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/github-snake.svg
+            output/github-snake-dark.svg?palette=github-dark
+
+      - name: Generate Pacman
+        run: |
+          cat > output/pacman-contribution-graph.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+            <style>.pacman{animation:eat .7s infinite;transform-origin:center;fill:#FFD700}@keyframes eat{0%{transform:rotate(0)}50%{transform:rotate(-45deg)}100%{transform:rotate(0)}}</style>
+            <circle cx="50" cy="50" r="40" class="pacman"/>
+          </svg>
+          EOF
+          
+          sed 's/#FFD700/#FF8C00/' output/pacman-contribution-graph.svg > output/pacman-contribution-graph-dark.svg
+
+      - name: Commit and push
+        run: |
+          cd output
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Update animations [skip ci]"
+          git push origin output
