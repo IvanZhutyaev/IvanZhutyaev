@@ -28,21 +28,19 @@
 
 ---
 
-
-
-<!-- Pacman -->
+<!-- Настоящий Pacman с коммитами -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph-dark.svg">
-    <img alt="Pacman" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg" width="400">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-dark.svg">
+    <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman.svg" width="100%">
   </picture>
 </div>
 
-<!-- Snake -->
+<!-- Змейка -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake-dark.svg">
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" width="400">
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/github-snake.svg" width="100%">
   </picture>
 </div>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
