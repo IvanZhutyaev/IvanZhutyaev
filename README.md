@@ -9,7 +9,7 @@
 
 ---
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/IvanZhutyaev)
+![LeetCode Stats](https://leetcard.jacoblin.cool/IvanZhutyaev?theme=dark&font=Atma&ext=contest&site=cn)
 
 ---
 
