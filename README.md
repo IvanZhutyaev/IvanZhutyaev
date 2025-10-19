@@ -61,12 +61,14 @@
 
 
 # 📊 GitHub Stats:
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvanZhutyaev&theme=dark&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IvanZhutyaev&theme=dark&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IvanZhutyaev&theme=dark&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IvanZhutyaev&theme=dark&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IvanZhutyaev&theme=dark&hide_border=false)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&hide_border=false&line=8000FF&point=C77DFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
