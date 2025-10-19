@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# <font color="purple">👋 Hi, my name is Ivan!</font>
+<h1>👋 Hi, my name is Ivan!</h1>
 
 **<font color="purple">💫 I am a young developer from Russia</font>**  
 **<font color="purple">📚 I have the potential to create complex projects</font>**  
