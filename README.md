@@ -23,7 +23,7 @@
 <h3 align="center">You can connect with me through:</h3>
 
 
-  <a href="gitivanzhutyaev@gmail.com">
+  <a href="mailto:gitivanzhutyaev@gmail.com">
     <img src="https://img.icons8.com/nolan/64/gmail.png" alt="Gmail"/>
   </a>
   <a href="https://t.me/zhutyaevivan">
