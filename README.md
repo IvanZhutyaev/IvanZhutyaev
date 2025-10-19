@@ -70,5 +70,5 @@
 # 📊 GitHub Stats:
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
-
+<img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 
