@@ -8,7 +8,7 @@
 
 # <font color="purple">👋 Hi, my name is Ivan!</font>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=purple&lines=Veni+,+vidi+,+vici)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=7a49a5&lines=Veni+,+vidi+,+vici)](https://git.io/typing-svg)
 
 **<font color="purple">💫 I am a young developer from Russia</font>**  
 **<font color="purple">📚 I have the potential to create complex projects</font>**  
