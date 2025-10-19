@@ -23,7 +23,7 @@
 <h3 align="center">You can connect with me through:</h3>
 
 
-  <a href="mailto:gitivanzhutyaev@gmail.com">
+  <a href="gitivanzhutyaev@gmail.com">
     <img src="https://img.icons8.com/nolan/64/gmail.png" alt="Gmail"/>
   </a>
   <a href="https://t.me/zhutyaevivan">
@@ -32,7 +32,16 @@
   <a href="https://github.com/IvanZhutyaev">
     <img src="https://img.icons8.com/nolan/64/github.png" alt="LinkedIn"/>
   </a>
-
+  <a href="https://steamcommunity.com/profiles/76561199812866722/">
+    <img src="https://img.icons8.com/nolan/64/steam.png" alt="Gmail"/>
+  </a>
+  <a href="discordapp.com/users/jutjaev_ivan">
+    <img src="https://img.icons8.com/nolan/64/discord.png" alt="Gmail"/>
+  </a>
+  <a href="https://gitlab.com/IvanZhutyaev">
+    <img src="https://img.icons8.com/nolan/64/gitlab.png" alt="Gmail"/>
+  </a>
+  
 
 
 # 💜 Tech Stack
