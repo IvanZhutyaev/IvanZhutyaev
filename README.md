@@ -20,8 +20,18 @@
 </div>
 
 
-## 🌐 Socials:
-<p align="left"><a href="ivan.zhutyaev@mail.ru" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" height="28" style="margin-right: 4px"></a> <a href="https://github.com/https://github.com/IvanZhutyaev" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" height="28" style="margin-right: 4px"></a></p>
+<h3 align="center">You can connect with me through:</h3>
+
+<div align="center">
+  <a href="mailto:gitivanzhutyaev@gmail.com">
+    <img src="https://img.icons8.com/nolan/64/gmail.png" alt="Gmail"/>
+  </a>
+  <a href="https://t.me/zhutyaevivan">
+    <img src="https://img.icons8.com/nolan/64/telegram-app.png" alt="Telegram"/>
+  </a>
+  <a href="https://github.com/IvanZhutyaev">
+    <img src="https://img.icons8.com/nolan/64/github.png" alt="LinkedIn"/>
+  </a>
 
 ---
 
