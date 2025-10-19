@@ -1,3 +1,5 @@
+<img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=header&reversal=false'>
+
 ![👋 Hi, my name is Ivan!](https://i.pinimg.com/originals/6b/cd/f2/6bcdf2799bc8300f6684fe9b432c2c5b.gif)
 
 # 👋 Hi, my name is Ivan!
@@ -39,4 +41,6 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg">
     <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph.svg">
 </picture>
+
+<img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
