@@ -66,16 +66,20 @@
 
 
 
-
+---
 
 # 📊 GitHub Stats:
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&hide_border=false&line=8000FF&point=C77DFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IvanZhutyaev&theme=purple-inspired&hide_border=false)
+[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IvanZhutyaev&theme=radical&hide_border=false)
+
+
+
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=radical&no-frame=false&no-bg=false&margin-w=4)
