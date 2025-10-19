@@ -4,9 +4,22 @@
 </p>
 
 
-# 👋 Hi, my name is Ivan!
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Veni+,+vidi+,+vici)](https://git.io/typing-svg)<br>
-💫I am a young developer from Russia<br>📚I have the potential to create complex projects<br>👨🏻‍💻I am currently working in the Code Forge team.<br>⚡Fun fact: I am Spiderman... but don't tell anyone<br>📂My Portfolio: [Click here!](https://github.com/IvanZhutyaev?tab=repositories)<br>📝My Blog: [Click here!](https://t.me/podvalaitishnika)<br>😎I will be glad to work with you!<br>🤝Also refer to [BinaryModder](https://github.com/BinaryModder)
+<div align="center">
+
+# <font color="purple">👋 Hi, my name is Ivan!</font>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=purple&lines=Veni+,+vidi+,+vici)](https://git.io/typing-svg)
+
+**<font color="purple">💫 I am a young developer from Russia</font>**  
+**<font color="purple">📚 I have the potential to create complex projects</font>**  
+**<font color="purple">👨🏻‍💻 I am currently working in the Code Forge team</font>**  
+**<font color="purple">⚡ Fun fact: I am Spiderman... but don't tell anyone</font>**  
+**<font color="purple">📂 My Portfolio: [Click here!](https://github.com/IvanZhutyaev?tab=repositories)</font>**  
+**<font color="purple">📝 My Blog: [Click here!](https://t.me/podvalaitishnika)</font>**  
+**<font color="purple">😎 I will be glad to work with you!</font>**  
+**<font color="purple">🤝 Also refer to [BinaryModder](https://github.com/BinaryModder)</font>**
+
+</div>
 
 
 ## 🌐 Socials:
