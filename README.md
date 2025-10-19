@@ -66,7 +66,6 @@
 
 
 
----
 
 # 📊 GitHub Stats:
 
@@ -81,23 +80,22 @@
 
 
 
-## 🏆 GitHub Trophies
+# 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-## ✍️ Random Dev Quote
+# ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vertical&theme=radical&background=6a0dad&color=dda0dd)
 
 
 
-## 🔝 Top Contributed Repo
+# 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=IvanZhutyaev&limit=5&theme=dark&border_radius=10&title_color=9b59b6&icon_color=8e44ad&text_color=b491c8&bg_color=2e003e&combine_all_yearly_contributions=true)
 
 
 
 
----
 
-## My Contribution Graph
+# My Contribution Graph
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IvanZhutyaev/IvanZhutyaev/output/pacman-contribution-graph-dark.svg">
