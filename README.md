@@ -35,8 +35,8 @@
   <a href="https://steamcommunity.com/profiles/76561199812866722/">
     <img src="https://img.icons8.com/nolan/64/steam.png" alt="Gmail"/>
   </a>
-  <a href="discordapp.com/users/jutjaev_ivan">
-    <img src="https://img.icons8.com/nolan/64/discord.png" alt="Gmail"/>
+  <a href="https://wa.me/qr/2L5QWSBH7ZTXM1">
+    <img src="https://img.icons8.com/nolan/64/whatsapp.png" alt="Gmail"/>
   </a>
   <a href="https://gitlab.com/IvanZhutyaev">
     <img src="https://img.icons8.com/nolan/64/gitlab.png" alt="Gmail"/>
