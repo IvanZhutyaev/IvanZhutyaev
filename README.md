@@ -17,12 +17,12 @@
 **<font color="purple">🟪 I will be glad to work with you!</font>**  
 **<font color="purple">🟪 Also refer to [BinaryModder](https://github.com/BinaryModder)</font>**
 
-</div>
+
 
 
 <h3 align="center">You can connect with me through:</h3>
 
-<div align="center">
+
   <a href="mailto:gitivanzhutyaev@gmail.com">
     <img src="https://img.icons8.com/nolan/64/gmail.png" alt="Gmail"/>
   </a>
@@ -71,4 +71,4 @@
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
-
+</div>
