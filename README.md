@@ -78,6 +78,12 @@
 
 # 💜 GitHub Stats:
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
+[![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
+![](https://github-readme-stats.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=radical&hide_border=true)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IvanZhutyaev&theme=radical&hide_border=false)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IvanZhutyaev&theme=radical&hide_border=false)
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 </div>
