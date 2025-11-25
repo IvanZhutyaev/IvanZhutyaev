@@ -79,9 +79,9 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 
 # GitHub Stats:
 <!-- Main Stats -->
-![Stats](https://github-readme-stats.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=c084f5&icon_color=bb86fc&text_color=ffffff&cache_seconds=86400)
+![](https://github-readme-stats.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=c084f5&icon_color=bb86fc&text_color=ffffff&cache_seconds=86400)
 <br>
-![Contributor Stats](https://github-contributor-stats.vercel.app/api?username=IvanZhutyaev&limit=5&theme=dark&hide_border=true&border_radius=10&title_color=c084f5&icon_color=bb86fc&text_color=ffffff&bg_color=00000000&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=IvanZhutyaev&limit=5&theme=dark&hide_border=true&border_radius=10&title_color=c084f5&icon_color=bb86fc&text_color=ffffff&bg_color=00000000&combine_all_yearly_contributions=true)
 [![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)](https://github.com/IvanZhutyaev/github-readme-activity-graph)
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 </div>
