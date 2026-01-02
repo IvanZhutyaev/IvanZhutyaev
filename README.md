@@ -82,5 +82,7 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 ![](https://github-readme-stats1-two-gold.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=00000000&title_color=c084f5&icon_color=bb86fc&text_color=ffffff&cache_seconds=86400)
 <br>
 ![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)
+<br>
+![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=cobalt&no-frame=false&no-bg=true&margin-w=4)
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 </div>
