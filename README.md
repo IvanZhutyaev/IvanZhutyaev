@@ -83,6 +83,6 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 <br>
 ![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=react-dark&area=true&hide_border=true&color=8A2BE2&line=DA70D6&point=9400D3)
 <br>
-![Здесь должны быть трофеи XD](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=-1)
+![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=dracula&no-frame=true&no-bg=true&margin-w=4&column=-1)
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=7a49a5&section=footer'>
 </div>
