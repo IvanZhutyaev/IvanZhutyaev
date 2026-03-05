@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/загруженное.jpg" width="100%">
+  <img src="img/загруженное.jpg" width="50%">
 </p>
 
 <div align="center" style="background-color: #0d1117; color: #e6edf3; padding: 20px; border-radius: 10px;">
