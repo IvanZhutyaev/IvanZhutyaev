@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.pinimg.com/originals/6b/cd/f2/6bcdf2799bc8300f6684fe9b432c2c5b.gif" width="100%">
+  <img src="img/загруженное.jpg" width="100%">
 </p>
 
 <div align="center" style="background-color: #0d1117; color: #e6edf3; padding: 20px; border-radius: 10px;">
