@@ -140,6 +140,5 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 <br>
 [![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=onedark&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
-</div>
-
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=161b22&section=footer'>
+</div>
