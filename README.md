@@ -133,6 +133,7 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 ![Steam](https://img.shields.io/badge/steam-5B646F.svg?style=for-the-badge&logo=steam&logoColor=white)
 
 # GitHub Stats:
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=IvanZhutyaev&theme=dark-smoky&hide_border=true&card_width=531)](https://git.io/streak-stats)
 ![](https://github-readme-stats.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=cccccc&text_color=ffffff)
 <br>
 ![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=github-dark&area=true&hide_border=true&color=ffffff&line=888888&point=ffffff)
