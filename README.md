@@ -137,8 +137,6 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
 ![](https://github-readme-stats.vercel.app/api?username=IvanZhutyaev&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=cccccc&text_color=ffffff)
 <br>
 ![](https://github-readme-activity-graph.vercel.app/graph?username=IvanZhutyaev&theme=github-dark&area=true&hide_border=true&color=ffffff&line=888888&point=ffffff)
-<br>
-[![](https://github-profile-trophy.vercel.app/?username=IvanZhutyaev&theme=onedark&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
 <img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=161b22&section=footer'>
 </div>
