@@ -14,7 +14,7 @@ Also refer to [BinaryModder](https://github.com/BinaryModder)**
   <a href="mailto:gitivanzhutyaev@gmail.com">
     <img src="https://img.icons8.com/ios-glyphs/60/ffffff/gmail.png" alt="Gmail" width="48"/>
   </a>
-  <a href="https://t.me/zhutyaevivan">
+  <a href="https://t.me/ivanzhutyaev">
     <img src="https://img.icons8.com/ios-glyphs/60/ffffff/telegram-app.png" alt="Telegram" width="48"/>
   </a>
   <a href="https://github.com/IvanZhutyaev">
