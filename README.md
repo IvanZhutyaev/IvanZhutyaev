@@ -6,12 +6,11 @@
 
 <h1 style="color: #f0f6fc;">Hello, my name is Ivan!</h1>
 
-**I am a young developer from Russia<br>
-I have the potential to create complex projects<br>
-I am currently working in the Code Forge team<br>
-My Portfolio: [Click here!](https://github.com/IvanZhutyaev?tab=repositories)<br>
-My Blog: [Click here!](https://t.me/podvalaitishnika) <br>
-I will be glad to work with you!  <br>
+**Software Engineering student based in Russia  <br>
+Passionate about building clean, efficient code and learning new technologies  <br>
+Currently exploring software development and working on personal projects  <br>
+Always eager to grow, collaborate, and take on new challenges  <br>
+Feel free to reach out and connect!<br>
 Also refer to [BinaryModder](https://github.com/BinaryModder)**
 
 <h3 align="center" style="color: #f0f6fc;">You can connect with me through:</h3>
