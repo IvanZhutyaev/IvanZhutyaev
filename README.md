@@ -1,31 +1,64 @@
-<div align="center" style="background-color: #0d1117; color: #e6edf3; padding: 20px; border-radius: 10px;">
+# Ivan Zhutyaev
 
-<h1 style="color: #f0f6fc;">Hello, my name is Ivan!</h1>
+### Backend Developer · Java & Go
 
-**Software Engineering student based in Russia  <br>
-Passionate about building clean, efficient code and learning new technologies  <br>
-Currently exploring software development and working on personal projects  <br>
-Always eager to grow, collaborate, and take on new challenges  <br>
-Feel free to reach out and connect!<br>
-Also refer to [BinaryModder](https://github.com/BinaryModder)**
+Software Engineer focused on **backend development, system architecture, and building production-oriented applications**.
 
-<h3 align="center" style="color: #f0f6fc;">You can connect with me through:</h3>
+I work with backend systems, APIs, databases, distributed components, and integrations. My current primary stack is **Java and Go**, while I also have experience with Python, C++, C#, and TypeScript.
 
-  <a href="mailto:gitivanzhutyaev@gmail.com">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/gmail.png" alt="Gmail" width="48"/>
-  </a>
-  <a href="https://t.me/ivanzhutyaev">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/telegram-app.png" alt="Telegram" width="48"/>
-  </a>
-  <a href="https://github.com/IvanZhutyaev">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/github.png" alt="GitHub" width="48"/>
-  </a>
-  <a href="https://steamcommunity.com/profiles/76561199812866722/">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/steam.png" alt="Steam" width="48"/>
-  </a>
-  <a href="https://wa.me/qr/2L5QWSBH7ZTXM1">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/whatsapp.png" alt="WhatsApp" width="48"/>
-  </a>
+### Core Technologies
 
-<img style='width:100%' src='https://capsule-render.vercel.app/api?type=waving&height=117&color=161b22&section=footer'>
-</div>
+**Backend**
+
+* Java · Go · Python · C# · C++
+* REST APIs · WebSockets
+* FastAPI · ASP.NET Core
+
+**Data**
+
+* PostgreSQL · SQLite
+* SQLAlchemy · Entity Framework
+* Database design and data modeling
+
+**Infrastructure**
+
+* Docker · Linux · Git
+* Docker Compose · CI/CD
+
+**Frontend**
+
+* TypeScript · Vue · React
+* Three.js
+
+**Additional**
+
+* AI integrations
+* Semantic search
+* 3D applications
+* System and application development
+
+### Selected Projects
+
+**[LINK](https://github.com/IvanZhutyaev/Link)**
+Full-stack real estate platform featuring property search, maps, 3D tours, bookings, analytics, and a structured backend architecture.
+
+**[Cluster](https://github.com/IvanZhutyaev/Cluster)**
+Full-stack platform combining semantic search, AI-powered recommendations, geospatial functionality, and modular backend architecture.
+
+**[CarWashTerminals](https://github.com/IvanZhutyaev/CarWashTerminals)**
+C++/Qt application for self-service car wash terminals with PostgreSQL, local/central database synchronization, QR codes, and payment integration.
+
+**[GLAS](https://github.com/IvanZhutyaev/GLAS)**
+AI-powered civic technology platform for processing, classifying, routing, and monitoring citizen reports.
+
+### Focus
+
+* Backend engineering with **Java & Go**
+* Software architecture and system design
+* Databases and data-intensive applications
+* API design and distributed systems
+* Building reliable, maintainable software
+
+---
+
+> **Engineering software that solves real problems.**
