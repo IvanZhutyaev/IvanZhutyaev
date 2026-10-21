@@ -24,9 +24,13 @@ to desktop applications and system-level software.
 
 ## Technology
 
-**Languages**
+**Primary Languages**
 
-Java · Go · Python · C++ · C# · TypeScript · Rust
+Java · Go
+
+**Additional Languages**
+
+Python · C++ · C# · TypeScript · Rust
 
 **Backend**
 
@@ -36,13 +40,13 @@ Spring Boot · Spring Security · JPA · FastAPI · ASP.NET Core
 
 PostgreSQL · SQLite · H2
 
-**Infrastructure**
+**Infrastructure & Tools**
 
 Docker · Docker Compose · Linux · Git
 
 **Frontend**
 
-Vue · TypeScript · React · Three.js
+Vue · React · TypeScript · Three.js
 
 ---
 
