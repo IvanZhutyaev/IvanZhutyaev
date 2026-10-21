@@ -51,10 +51,12 @@ Vue · TypeScript · React · Three.js
 ### [Task Manager](https://github.com/IvanZhutyaev/Task_Manager)
 
 Multi-client task management platform built around a **Spring Boot REST API**.
-
-Java 17 · Spring Boot 3 · Spring Security · JWT · JPA · Liquibase · PostgreSQL · Docker
-
 The system provides a shared backend for Web, SPA, CLI and Android clients.
+
+### [EventFlow](https://github.com/IvanZhutyaev/EventFlow)
+An event delivery platform built with Go, PostgreSQL, and NATS JetStream. 
+Features asynchronous processing, webhook delivery, retry handling, idempotency, and dead-letter processing.
+
 
 ### [Cluster](https://github.com/IvanZhutyaev/Cluster)
 
