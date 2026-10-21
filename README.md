@@ -62,7 +62,6 @@ The system provides a shared backend for Web, SPA, CLI and Android clients.
 A Go-based event delivery platform built with PostgreSQL and NATS JetStream for reliable asynchronous message processing.
 Includes webhook delivery, retry handling, idempotency, and dead-letter processing.
 
-
 ### [Cluster](https://github.com/IvanZhutyaev/Cluster)
 
 Full-stack platform combining **semantic search, AI-powered recommendations,
