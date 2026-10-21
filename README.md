@@ -58,8 +58,9 @@ Multi-client task management platform built around a **Spring Boot REST API**.
 The system provides a shared backend for Web, SPA, CLI and Android clients.
 
 ### [EventFlow](https://github.com/IvanZhutyaev/EventFlow)
-An event delivery platform built with Go, PostgreSQL, and NATS JetStream. 
-Features asynchronous processing, webhook delivery, retry handling, idempotency, and dead-letter processing.
+
+A Go-based event delivery platform built with PostgreSQL and NATS JetStream for reliable asynchronous message processing.
+Includes webhook delivery, retry handling, idempotency, and dead-letter processing.
 
 
 ### [Cluster](https://github.com/IvanZhutyaev/Cluster)
